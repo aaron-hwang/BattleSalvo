@@ -1,0 +1,11 @@
+- Driver : Adding functionality based off command line args
+- Changed AbstractPlayer constructor so that it and setup were no longer coupled together
+- Added Direction field to ships, and enumeration for said Direction
+- Added Randomable interface to allow for consistent testing of randomly generated phenomenon
+- Added JSON Record classes for every type of expected json from the server
+- Added CoordAdapter and ShipAdapter to allow for conversion from Ship and Coord to their respective json types
+- Added Mocket class for testing purposes
+- Added ProxyController to handle a scenario when connecting to a server.
+- Added a txt file containing a pre generated list of random numbers from 0 to 14 inclusive for the usage of testing 
+  - Generated from random.org
+- 
